@@ -1,0 +1,104 @@
+  *{
+    margin: 0px;
+    padding: 0px;;
+}
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body {
+    background: url("imagecss/Nadal.jpg") center fixed;
+    background: url("imagecss/Nadal.jpg") no-repeat center fixed; 
+    background-size: cover; /* version standardisée */
+    margin: 0;
+	  padding: 0;
+	  border: 0;}
+p {
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+    }
+h1 {
+
+    font-family: 'Rubik', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 75px;
+text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+ul{
+  text-align: center;
+}
+li {   
+  text-align: center;
+  width: auto;
+}
+a:hover {
+  color: black;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+nav ul::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+nav {
+  font-size: 45px;
+  text-align: center;
+font-family: 'Rubik', sans-serif;
+margin-right: auto;
+margin-left: auto;
+  display : table;
+  padding: 0;
+margin-top: 0;
+}
+
+nav a{
+  display: flex;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+}
+nav a:hover{
+  color: orange;
+  border-bottom: 2px solid gold;
+}
+
+.bloc {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bloc video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+tr {
+  position: center;
+}
+.champ {
+  position: center;
+}
